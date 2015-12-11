@@ -1,7 +1,8 @@
 %h1 All projects
 
 .section
-  = link_to 'Add project', new_project_path
+  = link_to 'Add project', new_developer_projects_path(@developer, @project)
   %br/
+
 
 = render @projects

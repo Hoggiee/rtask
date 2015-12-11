@@ -6,7 +6,7 @@
   = project.description
   %br/
   Author:
-  = project.developer.full_name
+  = project.developer.developer
   %br/
   Votes:
   %br/
