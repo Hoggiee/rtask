@@ -11,8 +11,6 @@ TO DO:
 
 - Add avatars upload to developers.
 
-- For each developer on the developers list, display the created_at date with format 'DD/MM/YYYY'
-
 - Add Language model. Every project can use many languages. Add few test languages (you can do it in console or in the seeds file, you don't have to implement any form for that). Make sure you can choose languages while creating a new project. For each language, user should be able to display the list of projects using selected language.
 
 - Extra: Try to use Github public API to fetch some developers and projects. You can do it either as rake task or as a separate page - details are up to you, feel free to be creative with this task. Can you write some tests for this code?
@@ -23,6 +21,8 @@ CAN BE BETTER:
 
 DONE:
 - Go to developers list. Currently, only first name is shown for each developer. Make sure to display their full names (remember about each develper's show page).
+
+- For each developer on the developers list, display the created_at date with format 'DD/MM/YYYY'
 
 
 Tips:
