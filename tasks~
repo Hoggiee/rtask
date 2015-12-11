@@ -1,11 +1,9 @@
 TO DO:
 - There are some failing tests in the suite. Make sure all tests are passing (change the code - not the tests!)
 
-- There is not flash messages displaying. Add it to the application layout.
+
 
 - Implement a simple voting system. Users should be able to vote for each project (and remove their vote later). User should be able to vote only once for each project. Vote number should be visible on the projects list.
-
-- Every project on the projects list should have its developer's full name displayed. 
 
 - Go to developers list. There is projects count displayed for each developer. What's wrong? Can you do something about it? (Take a look at the logs)
 
@@ -15,6 +13,7 @@ TO DO:
 
 - Extra: Try to use Github public API to fetch some developers and projects. You can do it either as rake task or as a separate page - details are up to you, feel free to be creative with this task. Can you write some tests for this code?
 
+
 CAN BE BETTER:
 
 
@@ -23,6 +22,10 @@ DONE:
 - Go to developers list. Currently, only first name is shown for each developer. Make sure to display their full names (remember about each develper's show page).
 
 - For each developer on the developers list, display the created_at date with format 'DD/MM/YYYY'
+
+- Every project on the projects list should have its developer's full name displayed.
+
+- There is not flash messages displaying. Add it to the application layout.
 
 
 Tips:

@@ -16,5 +16,5 @@
 //= require_tree .
 
 $(function(){
-  $('#flash_msg').fadeOut(3000);
+  $('#main_flash_msg').fadeOut(3000);
 });
