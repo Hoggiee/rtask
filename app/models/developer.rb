@@ -3,8 +3,12 @@ class Developer < ActiveRecord::Base
 
   validates :first_name, presence: true
   validates :last_name, presence: true
-  
+
   def full_name
     first_name + ' ' + last_name
+  end
+
+  def developer_projects_number
+    Project.group('developer_id').count #returns hashes
   end
 end
