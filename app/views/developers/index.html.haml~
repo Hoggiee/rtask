@@ -10,8 +10,9 @@
     = link_to developer.full_name, developer_path(developer)
     %br/
     Project count:
-    = developer.projects.count
+    = developer.projects_count
     %br/
     Joined at:
-    = developer.created_at.strftime("%d-%m-%Y")
+    = developer.created_at.strftime("%d/%m/%Y")
+    %br/
 

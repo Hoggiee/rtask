@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 20151213122644) do
     t.datetime "updated_at",     null: false
     t.string   "last_name"
     t.string   "avatar"
-    t.integer  "projects_count"
+    t.integer  "projects_count", default: 0
   end
 
   create_table "projects", force: :cascade do |t|

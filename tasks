@@ -1,8 +1,6 @@
 TO DO:
 - There are some failing tests in the suite. Make sure all tests are passing (change the code - not the tests!)
 
-- Implement a simple voting system. Users should be able to vote for each project (and remove their vote later). User should be able to vote only once for each project. Vote number should be visible on the projects list.
-
 - Add avatars upload to developers.
 
 - Add Language model. Every project can use many languages. Add few test languages (you can do it in console or in the seeds file, you don't have to implement any form for that). Make sure you can choose languages while creating a new project. For each language, user should be able to display the list of projects using selected language.
@@ -11,10 +9,12 @@ TO DO:
 
 
 CAN BE BETTER:
-- Go to developers list. There is projects count displayed for each developer. What's wrong? Can you do something about it? (Take a look at the logs)
+- Implement a simple voting system. Users should be able to vote for each project (and remove their vote later). User should be able to vote only once for each project. Vote number should be visible on the projects list.
 
 
 DONE:
+- (Needs new DB) Go to developers list. There is projects count displayed for each developer. What's wrong? Can you do something about it? (Take a look at the logs) 
+
 - Go to developers list. Currently, only first name is shown for each developer. Make sure to display their full names (remember about each develper's show page).
 
 - For each developer on the developers list, display the created_at date with format 'DD/MM/YYYY'
