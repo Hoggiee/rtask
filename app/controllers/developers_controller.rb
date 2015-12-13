@@ -6,7 +6,7 @@ class DevelopersController < ApplicationController
   end
 
   def index
-    @developers = Developer.all.order(projects_count: :asc)
+    @developers = Developer.all.order(projects_count: :desc)
   end
 
   def new

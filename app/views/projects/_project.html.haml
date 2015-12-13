@@ -5,10 +5,15 @@
   Description:
   = project.description
   %br/
+  Language:
+  - project.languages.each do |lang|
+    = lang.name
+  %br/
   Author:
   = project.developer.full_name
   %br/
   Votes:
   %br/
   %br/
+
 

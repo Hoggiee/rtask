@@ -5,13 +5,15 @@
   Description:
   = project.description
   %br/
+  Language:
+  - project.languages.each do |lang|
+    = lang.name
+  %br/
   Author:
   = project.developer.full_name
   %br/
   Votes:
   %br/
   %br/
-  = simple_form_for [@projects.vote.build] do |f|
-    = f.hidden_field :user, value: current_user
-    = f.submit :save
+
 

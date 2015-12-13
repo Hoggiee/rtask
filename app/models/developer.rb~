@@ -9,6 +9,6 @@ class Developer < ActiveRecord::Base
   end
 
   def developer_projects_number
-    Project.group('developer_id').count #returns hashes
+    Project.group('developer_id').count #returns hash
   end
 end

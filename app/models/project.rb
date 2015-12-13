@@ -1,8 +1,9 @@
 class Project < ActiveRecord::Base
   belongs_to :developer, counter_cache: true
 
+  has_and_belongs_to_many :languages
+
   validates :developer, presence: true
   validates :name, presence: true, uniqueness: true
   validates :description, presence: true
-
 end

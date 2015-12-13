@@ -7,8 +7,4 @@ class Developer < ActiveRecord::Base
   def full_name
     first_name + ' ' + last_name
   end
-
-  def developer_projects_number
-    Project.group('developer_id').count #returns hash
-  end
 end
